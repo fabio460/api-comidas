@@ -5,4 +5,4 @@ const schema = mongoose.Schema({
                 valor:String,
                 quantidade:String
             })
-exports.model = mongoose.model('carrinho_prato',schema);
+module.exports = mongoose.model('carrinho_prato',schema);

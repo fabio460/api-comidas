@@ -1,5 +1,7 @@
 const modelCarrinho = require('../models/modelCarrinho')
-exports.listarCarrinho = async(req,res)=>{
+
+
+exports.listarCarrinho = async (req,res)=>{
     const query =await modelCarrinho.find()
     res.json(query)
 }
